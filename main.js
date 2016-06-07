@@ -47,12 +47,16 @@ $( document ).ready( function(){
 
     _this.mousedown( function(e){
       x = e.clientX;
+      _this.addClass('active');
+    }).mouseleave( function(e){
+      _this.removeClass('active');
     }).on( 'touchstart', function(e){
       var touch = e.originalEvent.touches[0]
       x = touch.clientX;
       y = touch.clientY;
     }).mouseup( function(e){
       setCurrent( _this, e.clientX > x ? 1 : -1 )
+      _this.removeClass('active');
     }).on( 'touchend', function(e){
       var touch = e.originalEvent.changedTouches[0];
       if( Math.abs( touch.clientY - y ) < ( _this.height() / 3 ) ){

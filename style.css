@@ -9,8 +9,13 @@ License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
 
+html.html--noMargin {
+  margin: 0!important;
+}
+
 body {
   margin: 0;
+  background: #F7F7F7;
 }
 
 img {
@@ -20,8 +25,13 @@ img {
   -webkit-user-drag: none;
   opacity: 0;
   transition: opacity .2s ease;
+  display: block;
 }
 
 .loaded {
   opacity: 1;
+}
+
+.active {
+  mix-blend-mode: multiply;
 }
