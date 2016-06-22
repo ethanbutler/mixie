@@ -22,7 +22,7 @@ Finally, you'll also get all the fields you need for your mockups pre-registered
 
 This theme requires WordPress version 4.4 or later.
 
-Mixie requires [ACF Pro](https://www.advancedcustomfields.com/pro/) to be installed, though I hope to release a version which uses open-source meta fields in the future.
+Rotato requires [ACF Pro](https://www.advancedcustomfields.com/pro/) to be installed, though I hope to release a version which uses open-source meta fields in the future.
 
 ## Demo :construction:
 
