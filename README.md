@@ -1,8 +1,8 @@
-# Mixie :art: 
+# Rotato :fries::sweet_potato::fries::sweet_potato::fries:
 
-## What is Mixie? :confused:
+## What is Rotato? :confused:
 
-Mixie is a WordPress theme for experimenting with design mockups by letting you mix-and-match options. This is intended for use with both wireframes and designs.
+Rotato is a WordPress theme for experimenting with design mockups by letting you mix-and-match options. This is intended for use with both wireframes and designs.
 
 You can add multiple options for different page elements via a gallery field. You can add as many page elements and options as you want. Page element options can be uploaded as flat JPGs or PNGs.
 
